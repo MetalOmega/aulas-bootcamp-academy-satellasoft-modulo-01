@@ -1,0 +1,22 @@
+input:focus {
+    box-shadow: 0 0 5px red;
+}
+
+input:read-only {
+    box-shadow: 0 0 5px blue;
+    background-color: #eee;
+    text-align: center;
+    border: none;
+}
+
+.my-div p:first-child {
+    color: green;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.my-div p:last-child {
+    color: red;
+    font-size: initial;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
