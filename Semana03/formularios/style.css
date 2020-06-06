@@ -1,0 +1,30 @@
+.input {
+    padding: 10px;
+    outline-color: lawngreen;
+    font-size: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input:focus {
+    box-shadow: 0 0 5px;
+    background-color: lightgreen;
+}
+
+.btn {
+    padding: 1em;
+    background-color: rgb(159, 181, 255);
+    font-weight: bold;
+    color: #ff0000;
+    font-size: 1em;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background-color: #ccc;
+}
+
+.btn:active {
+    background-color: lime;
+}

@@ -1,0 +1,28 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+table td {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+}
+
+table tfoot td {
+    background-color: #a5beed;
+    text-align: center;
+}
+
+table tr:nth-child(odd) {
+    background-color: #f4fdfc;
+}
+
+table tr:nth-child(even) {
+    background-color: greenyellow;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="registra.php" method="POST">
+        <label><input type="checkbox" name="cknews" value="newsletter" checked>Newsletter</label>
+        <br>
+        <hr>
+        <label><input type="radio" name="rbgenero" value="h">Homem</label>
+        <label><input type="radio" name="rbgenero" value="m">Mulher</label>
+        <br>
+        <hr>
+        <label><input type="checkbox" name="ckauto" value="carros">Carros</label>
+        <label><input type="checkbox" name="ckauto" value="motos">Motos</label>
+        <label><input type="checkbox" name="ckauto" value="jogos">Jogos</label>
+        <br>
+        <hr>
+        <select name="slEstado" id="slEstado">
+            <optgroup label="Sudeste">
+                <option value="UF" selected>UF</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MG">Minas Gerais</option>
+            </optgroup>
+            <optgroup label="Sul">
+                <option value="PR">Paraná</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="RS">Rio Grande do Sul</option>
+            </optgroup>
+        </select>
+        <br>
+        <hr>
+        <label for="txtNome">Nome</label>
+        <input class="input" type="text" name="txtNome" id="txtNome" placeholder="Insira seu nome" required>
+        <br>
+        <hr>
+        <label for="txtEmail">e-mail</label>
+        <input class="input" type="email" name="txtEmail" id="txtEmail" placeholder="Insira o seu email" required autocomplete="off">
+        <br>
+        <hr>
+        <label for="txtSenha">Senha</label>
+        <input class="input" type="password" name="txtSenha" id="txtSenha" placeholder="Digite sua senha" minlength="5" maxlength="20"
+            required>
+        <br>
+        <hr>
+        <label for="">Hidden</label>
+        <input type="hidden" name="txtHidden" id="txtHidden">
+        <br>
+        <hr>
+        <label for="txtDate">Data de aniversário</label>
+        <input class="input" type="date" name="txtDate" id="txtDate" required>
+        <br>
+        <hr>
+        <label for="txtColor">Cor Preferida</label>
+        <input type="color" name="txtColor" id="txtColor">
+        <br>
+        <hr>
+        <label for="txtNumber">Número Preferido</label>
+        <input class="input" type="number" name="txtNumber" id="txtNumber" min="1" max="9" required>
+        <br>
+        <hr>
+        <label for="txtEnviar"></label>
+        <input type="text" name="txtEnviar" id="txtEnviar" readonly value="Clique em Enviar">
+        <br>
+        <hr>
+        <label for="txtSubmit"></label>
+        <input type="text" name="txtSubmit" id="txtSubmit" readonly value="Clique em Enviar" disabled> 
+        <br>
+        <hr>  
+        <textarea class="input" name="txtComentario" placeholder="Insira um comentário"></textarea>
+        <br>
+        <hr>       
+        <input class="btn" type="submit" value="Enviar">
+        <input class="btn" type="reset" value="Resetar">
+        <input class="btn" type="button" value="WTF">
+
+    </form>
+</body>
+
+</html>
