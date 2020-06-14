@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/palette.css">
+    <link rel="stylesheet" href="css/unsemantic-grid-responsive.css">
+</head>
+
+<body>
+    <header>
+        <div class="max-width">
+            <a href="cadastro.html" alt="MetalOmega" title="Metal Omega">
+                <img src="img/logo-metalomega.png" alt="Logo Metal Omega | MetalOmega"
+                    title="Logo Metal Omega | MetalOmega">
+            </a>
+        </div>
+        <nav>
+            <div class="max-width">
+                <ul>
+                    <li><a href="#">Home</li></a>
+                    <li><a href="cadastro.html">Cadastro</li></a>
+                    <li><a href="#">Contato</li></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="dvgrid">
+            <div class="grid-100">
+                <h1>Cadastro</h1>
+            </div>
+            <div class="grid-100">
+                <!--Formulário-->
+                <form method="post" id="frmCadastro">
+                    <div class="grid-50 dvForm">
+                        <label for="txtNome">Nome</label>
+                        <input type="text" id="txtNome" placeholder="Digite o seu Nome">
+                    </div>
+                    <div class="grid-50 dvForm">
+                        <label for="txtEmail">E-Mail</label>
+                        <input type="text" id="txtEmail" placeholder="Digite o seu e-mail">
+                    </div>
+                    <hr>
+                    <div class="grid-50 dvForm">
+                        <label for="txtSenha">Senha</label>
+                        <input class="input" type="password" name="txtSenha" id="txtSenha"
+                            placeholder="Digite sua senha">
+                    </div>
+                    <div class="grid-50 dvForm">
+                        <label for="txtConfirmSenha">Confirmar Senha</label>
+                        <input class="input" type="password" name="txtConfirmSenha" id="txtConfirmSenha"
+                            placeholder="Confirme sua senha">
+                    </div>
+                    <hr>
+                    <div class="grid-50 dvForm">
+                        <label for="txGenero">Gênero</label>
+                        <select name="txGenero" id="txGenero">
+                            <option value=""></option>
+                            <option value="M">Masculino</option>
+                            <option value="F">Feminino</option>
+                        </select>
+                    </div>
+                    <div class="grid-50 dvForm">
+                        <label for="txtData">Data de aniversário</label>
+                        <input class="input" type="date" name="txtData" id="txtData">
+                        <br>
+                    </div>
+                    <hr>
+                    <div class="grid-100 dvForm">
+                        <label for="txtAssunto">Assunto</label>
+                        <br>
+                        <textarea class="input assunto" name="txtAssunto" id="txtAssunto"
+                            placeholder="Escreva o assunto"></textarea>
+                    </div>
+                    <div class="grid-100 text-right dvForm">
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpar</button>
+                    </div>
+                </form>
+                <!--Fim Formulário-->
+                <!--Botão-->
+            </div>
+            <div class="clear"></div>
+            <hr>
+            <!--Fim Botão-->
+            <div class="clear"></div>
+            <hr>
+            <div id="dvMensagem" class="grid-100">
+                <ul class="msg">
+                    <li>Informe um nome válido. Min. 2 e Máx. 50 caracteres.</li>
+                    <li>Informe um e-mail válido. Min. 7 e Máx. 50 caracteres.</li>
+                    <li>Informe uma senha válida. Min. 6 e Máx. 50 caracteres.</li>
+                    <li>Informe um gênero válido. Selecione M ou F.</li>
+                    <li>Informe uma data válida.</li>
+                    <li>Informe um assunto válido. Min. 10 e Máx. 300 caracteres.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

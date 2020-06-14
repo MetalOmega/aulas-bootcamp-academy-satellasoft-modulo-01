@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    background-color: #ccc;
+    border: 2px solid;
+    float: right;
+    width: 25%;
+}
+
+button:active {
+    padding: 10px;
+    background-color: #eee;
+    border: 2px solid;
+    float: right;
+    width: 25%;
+}
+
+.msg {
+    list-style: none;
+    padding: 0;
+}
+
+.msg li {
+    background-color: #A80C0C;
+    padding: 10px;
+    margin-top: 10px;
+    color: #fff;
+    width: 100%;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.assunto {
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.valido {
+    border: 1px solid rgb(26,199,133);
+    box-shadow: 0 0 5px rgb(8, 163, 235);
+}
+
+.errado {
+    border: 1px solid rgb(199, 26, 26);
+    box-shadow: 0 0 5px rgb(255, 123, 123);
+}
+
+
+.max-width {
+    max-width: 1280px;
+    width: 100%;
+}
+
+header {
+    background: #eee;
+}
+
+header img {
+    max-width: 80px;
+    width: 100%;
+    padding: 10px;
+}
+
+
+nav {
+    background-color: #000;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #0288D1;
+    transition: all 1.5s;
+}
+
+section {
+    margin-top: 20px;
+}
+
+.dvgrid {
+    border: 3px solid #A80C0C;
+    background-color: #ccc;
+    padding: 10px;
+    width: 100%;
+}
+
+.dvForm {
+    padding: 15px;
+}
