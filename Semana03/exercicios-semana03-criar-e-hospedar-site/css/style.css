@@ -191,3 +191,40 @@ table tfoot td:last-child {
 .ico:hover {
     filter: grayscale(80%);
 }
+
+.container {
+	width: 100%;
+	margin: auto;
+}
+
+footer {
+	width: 100%;
+	min-height: 30px;
+	background-color: #0288D1;
+	margin-top: 4rem;
+	color: #fff;
+	letter-spacing: 1.5px;
+}
+
+.footer-content {
+	width: 100%;
+	display: flex;
+	min-height: 30px;
+}
+
+.copy {
+	text-align: center;
+	width: 50%;
+	min-height: 100px;
+	padding-top: 2rem;
+}
+footer a {
+	color: #fff;
+	text-decoration: none;
+}
+.footer-info {
+	text-align: center;
+	width: 50%;
+	min-height: 100px;
+	padding-top: 2rem;
+}
